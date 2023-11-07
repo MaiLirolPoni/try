@@ -1,0 +1,279 @@
+.titulo{
+  letter-spacing: 3px;
+    font-family: "Teko",'Tanker', 'Lucida Sans';
+    font-size: 55px;
+    text-align:left;
+    text-shadow: 1px 1px 2px black;
+    color: #eca023;
+}
+
+.subtitulos{
+  font-family: "Switzer","Verdana";
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+  font-size: 20px;
+}
+
+.contenidos{
+    padding: 20px; /* Espacio entre el contenido y el borde */
+    width: 300px; /* Define el ancho de la caja */
+    margin: 0 auto; /* Centra la caja en el medio de la página  */
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: hsl(0, 0%, 0%, 0.1);
+    border: 2px solid rgb(59, 13, 63); /* Define un borde de 2 píxeles de grosor, de color negro */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+    font-family: "Satoshi", Verdana;
+    box-sizing: border-box;
+    
+}
+
+.text, td, ol{
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: "Satoshi",Verdana;
+    color:#202020;
+}
+
+.title{
+     font-size: 30px;
+     margin: 0 auto;
+     font-family: "Teko","Titillium";
+     text-align: center;
+     color:#eca023;
+     text-shadow: 1px 1px 1px rgb(82, 82, 82);
+}
+
+.container{
+
+    margin-right: 520px; /* El mismo ancho que la tabla de contenidos */
+    box-sizing: border-box; /* Esto asegura que el margen se aplique correctamente sin afectar el ancho del contenedor */
+    padding: 20px; /* Puedes ajustar este valor según sea necesario */
+}
+
+h1{
+    letter-spacing: 3px;
+    font-family: 'Tanker', 'Lucida Sans';
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: rgb(201, 201, 201);
+}
+
+h2{
+    font-family: "Asap","Verdana";
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.indice{
+    font-size: 20px;
+    font-family: "Asap",'Mathery-Thin';
+    text-decoration: none;
+    color: aliceblue;  
+}
+
+.indice:hover{
+  text-decoration: none; /* Quita el subrayado predeterminado */
+  font-weight: bold; /* Puede ser normal, bold, bolsder, lighter, etc. */
+  font-style: italic;
+  color: #2f006d;
+}
+
+.indice:visited{
+  color: rgb(85, 12, 92);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #9b87e2, #6a37a3);
+}
+
+/*fuentes robadas de internet jeje*/
+
+@font-face {
+    font-family: 'Teko';
+    src: url('Teko-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Tanker';
+    src: url('Tanker-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+  @font-face {
+    font-family: 'Asap';
+    src: url('Asap-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+    
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Switzer';
+    src: url('Switzer-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /*de aquí pa allá y de allá pa acá es la barra de menu*/
+  .header {
+    background: rgba(0,0,0,0.7);
+    width: 70%;
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centra los elementos en el contenedor */
+    border-radius: 8px;
+
+  }
+  
+  nav {
+    float: left;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+    margin: 15x;
+    padding: 0px;
+  }
+  
+  nav ul li {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block; /* Muestra los elementos en línea */
+    margin: 0 10px; 
+    
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+    border-radius: 10px;
+    margin: 0px;
+    font-family: "Satoshi", Verdana;
+    font-weight: bold;
+  }
+  /*esta madre es el boton de la casita, pa que te lleve al inicio :p*/
+  .boton-arriba {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+  }
+
+  .uprrow{
+    width: 50px;
+    height: 50px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  /*la madresita de simbología de aquí aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+  table{
+    width: 50%;
+    border-collapse:collapse
+  }
+
+  th, td{
+    padding: 15px;
+    text-align: center;
+  }
+
+  table tr td{
+    border: solid 2px black;
+  }
+  
+  th {
+    font-family: "Tanker";
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight:lighter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    border: solid 2px black;
+  }
+
+  
+  tr:nth-child(even) {
+    background-color: rgb(107, 110, 255, 0.1);
+  }
+
+  .si:hover {
+    background-color: rgb(255, 80, 211);
+    font-weight: bold;
+  }
+
+  .no:hover {
+    background-color: rgb(80, 162, 255);
+    font-weight: bold;
+  }
+
+  /*sta acá*/
+
+.imagen1{
+  display:block;
+  position: absolute;
+  margin-left: 600px;
+}
+
+.imagen2{
+  display:block;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+.img1, .img2{
+    max-width: 500px;
+}
+
+.operaciones{
+  display:block;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 70px;
+}
+
+.op, .ej3{
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+
+.ejemplo3{
+  display:block;
+  position: absolute;
+  margin-left: 800px;
+}

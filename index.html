@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Verdad y Diagramas de Venn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="signo-de-mas.png" type="image/x-icon">
+</head>
+
+<body>
+    
+        <nav class="header" id="inicio">
+            <ul>
+            <li><a href="index.html">Diagramas de Venn</a></li>
+            <li><a href="index2.html">Tablas de Verdad</a></li>
+         </ul>
+        </nav>
+
+    <br><br><br>
+
+
+    <div class="contenidos"> <!-- "tabla" de contenidos-->
+        <p class="title">Diagramas de Venn</p>  <!--título-->
+        
+        <dd><li class="subtitulos" type="circle">Definición y Usos</li></dd> <!-- el dd es para sangria por así decirlo-->
+            
+            <ul>
+                <dd><li><a class="indice" href="#concepto">Concepto</a></li></dd>
+            </ul>
+
+        <dd><li class="subtitulos" type="circle">Tipos de Conjuntos</li></dd> <!-- el dd es para sangria por así decirlo-->
+        <ul>
+            <dd><li><a class="indice" href="#universal">Conjunto Universal</a></li></dd>
+            <dd><li><a class="indice" href="#finitos">Conjunto Finitos</a></li></dd>
+            <dd><li><a class="indice" href="#infinitos">Conjuntos Infinitos</a></li></dd>
+            <dd><li><a class="indice" href="#subconjuntos">Subconjuntos</a></li></dd>
+            <dd><li><a class="indice" href="#complementario">Conjunto Complementario</a></li></dd>
+        </ul>
+
+        <dd><li class="subtitulos" type="circle">Simbología</li></dd> <!-- el dd es para sangria por así decirlo-->
+            
+            <ul>
+                <dd><li><a class="indice" href="#simbologia">Símbolos</a></li></dd>
+            </ul>
+
+        <dd><li class="subtitulos" type="circle">Operaciones Básicas</li></dd> <!-- el dd es para sangria por así decirlo-->
+         <ul>
+            <dd><li><a class="indice" href="#union">Unión</a></li></dd>
+            <dd><li><a class="indice" href="#interseccion">Intersección</a></li></dd>
+            <dd><li><a class="indice" href="#diferencia">Diferencia</a></li></dd>
+            <dd><li><a class="indice" href="#simetrica">Diferencia Simétrica</a></li></dd>
+            
+         </ul>
+
+        
+       <dd><li class="subtitulos" type="circle">Ejemplos</li></dd> <!-- el dd es para sangria por así decirlo--> 
+         <ul>
+            <dd><li><a class="indice" href="#ejemplo1">Ejemplo 1</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo2">Ejemplo 2</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo3">Ejemplo 3</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo4">Ejemplo 4</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo5">Ejemplo 5</a></li></dd>
+            
+            
+        </ul>
+
+    </div>
+
+    
+    
+    <!--A PARTIR DE AQUÍ EMPIEZA EL CONTENIDO (TEXTO)-->
+
+    <div class="container"> <!--Va a ser el contenedor de toda la informacion de la página-->
+        <h1 class="titulo">DIAGRAMAS DE VENN</h1>
+
+        <h1>Definición y Usos</h1>
+
+        <h2 id="concepto">Concepto y Usos</h2>
+
+        <p class="text">
+            Un diagrama de Venn es una representación gráfica que utiliza formas superpuestas para ilustrar las relaciones entre conjuntos de elementos. 
+            Se utiliza para organizar y visualizar de manera clara las similitudes y diferencias entre los elementos.<br><br>
+            Estos diagramas encuentran aplicaciones en matemáticas, estadísticas, lógica, enseñanza, lingüística, informática y negocios. 
+            Pueden ser simples, con pocos conjuntos y elementos, o complejos, con múltiples conjuntos y representaciones en 3D. <br><br>
+            Permiten un análisis detallado y muestran cómo se relacionan los elementos en un contexto específico. 
+            Son herramientas eficaces en presentaciones e informes, 
+            ya que facilitan una visualización clara y comprensible de los datos. 
+            A diferencia de los diagramas de Euler, los de Venn muestran relaciones incluso si un conjunto está vacío.<br><br>
+        </p>
+
+        <!--Estos son los de tipos de conjuntos-->
+        <h1>Tipos de Conjuntos</h1>
+
+        <h2 id="universal">Conjunto Universal</h2>
+            <p class="text">
+                El conjunto universal es el conjunto formado por todos los objetos de estudio en un contexto dado. 
+                Se denota por U y también se le llama conjunto universo.<br><br>
+                Si en un estudio intervienen los conjuntos A={a, b, c}, B={f, g, h, i, j} y C={x, y}, 
+                entonces el conjunto universal U del contexto es:
+                <br><br>
+                U = {a, b, c, f, g, h, i, j, x, y}
+            </p>
+
+        <h2 id="finitos">Conjuntos Finitos</h2>
+            <p class="text">
+                Se entiende por conjunto finito todo conjunto con un número limitado o contable de elementos.
+                Son muchos los ejemplos de conjuntos finitos. Entre algunos ejemplos están los siguientes:<br><br>
+
+                El conjunto M de los meses del año, que en forma extendida puede escribirse así:<br><br>
+
+                M = {enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre}, la cardinalidad de M es 12.<br>
+            </p>
+
+        <h2 id="infinitos">Conjuntos Infinitos</h2>
+            <p class="text">
+                Los conjuntos infinitos son aquellos que contienen una cantidad ilimitada de elementos. 
+                Es decir, aquellos que se extienden de forma indefinida. 
+                En otras palabras, un conjunto infinito es lo opuesto a un conjunto finito, 
+                que es aquel que posee una cantidad limitada o acotada de elementos.<br><br>
+
+                Como ejemplo, podemos tomar al conjunto de vocales en el alfabeto:<br><br>
+
+                A = {a, e, i, o, u}
+            </p>
+
+            <h2 id="universal">Conjunto Vacío</h2>
+            <p class="text">
+                Un conjunto vacío es el conjunto que no tiene elementos. Se puede representar como ∅, {  } o { x | x ≠ x }.Algunos ejemplos de conjuntos vacíos son:
+                <li class="text">El conjunto de perros y gatos que hablan.</li>
+                <li class="text">El conjunto de elefantes con alas.</li>
+                <li class="text">El conjunto de números pares mayores que 3 y primos.</li>
+                <li class="text">El conjunto de números naturales menores que cero.</li>
+                <li class="text">El conjunto de hombres que viven en Marte.</li>
+            </p>
+
+        <h2 id="subconjuntos">Subconjuntos</h2>
+            <p class="text">
+                Un conjunto A es subconjunto de un conjunto B, si todo elemento del conjunto A es un elemento del conjunto B. 
+                La notación A ⊂ B se lee “A es subconjunto de B”. La notación A ⊄ B se lee “A no es subconjunto de B”.
+
+                    Si A no es subconjunto de B, A ⊄ B, significa que por lo menos un elemento de A no está en B.<br><br>
+
+                    Ejemplos:<br><br>
+
+                    1. Dados A={1, 2, 3} y B={1, 2, 3, 4, 5}, se puede decir que A es subconjunto de B, A ⊂ B.<br>
+                    2. Dados A={0, 1, 2, 3} y B={1, 2, 3, 4, 5}, se puede decir que A no es subconjunto de B, A ⊄ B.<br><br>
+            </p>
+        <h2 id="complementario">Conjunto Complementario</h2>
+            <p class="text">
+                Un conjunto complementario es otro conjunto, conformado por los elementos que no tiene el otro conjunto, 
+                considerado como original, teniendo en cuenta el universo de elementos que componen el conjunto. 
+                Si consideramos por ejemplo el conjunto de las letras del alfabeto, 
+                y un conjunto original con las consonantes, el complementario incluirá las vocales.
+            </p>
+
+        <h1>Simbología</h1>
+        <!--Simbologia-->
+        <h2 id="simbologia">Simbología</h2>
+    
+        <div class="imagen1"><img class="img1" src="img1.png"></div>
+
+        <dd>
+          <table>
+            <tr class="no">
+              <th>Símbolos</th>
+              <th>significado</th>
+            </tr>
+
+            <tr class="si">
+              <td>∪</td>
+              <td>Unión</td>
+            </tr>
+
+            <tr class="no">
+              <td>∩</td>
+              <td>Intersección </td>
+            </tr>
+
+            <tr class="si">
+              <td>A'</td>
+              <td>Complemento</td>
+            </tr>
+
+            <tr class="no">
+                <td>-</td>
+                <td>Diferencia</td>
+              </tr>
+
+            <tr class="si">
+              <td>U</td>
+              <td>Conjunto Universal</td>
+            </tr>
+
+            <tr class="no">
+                <td>⊆</td>
+                <td>Subconjunto</td>
+              </tr>
+
+            <tr class="si">
+              <td>∅</td>
+              <td>Conjunto Vacío</td>
+            </tr>
+
+            <tr class="no">
+                <td>△</td>
+                <td>Diferencia Simétrica</td>
+              </tr>
+
+          </table>
+        </dd>
+
+
+        <h1>Operaciones Básicas</h1>
+        <!--Operaciones básicas-->
+        <h2 id="union">Unión</h2>
+        
+        <div class="operaciones"><img class="op" src="op.png"></div>
+        
+        <p class="text">
+            La operación de unión de conjuntos combina todos los elementos de dos
+            o más conjuntos para formar un nuevo conjunto
+            que contiene todos los elementos únicos de los conjuntos originales.<br><br>
+            
+            Por ejemplo, si tienes dos conjuntos, <br><br>
+            
+            A = {1, 2, 3} y B = {3, 4, 5} <br><br>
+
+            entonces la unión de A y B sería <br><br>
+
+            A ∪ B = {1, 2, 3, 4, 5}.<br><br>
+        </p>
+ 
+        <h2 id="interseccion">Intersección</h2>
+        <p class="text">
+            La operación de intersección de conjuntos devuelve un nuevo conjunto que contiene
+            solo los elementos que son comunes a todos los conjuntos originales.
+            Usando los mismos conjuntos A y B del ejemplo anterior, 
+            la intersección de A y B sería: <br><br>
+            A ∩ B = {3}.<br><br>
+        </p>
+
+        <h2 id="diferencia">Diferencia</h2>
+
+        <p class="text">
+            La diferencia entre dos conjuntos, denotada como A - B o A \ B, devuelve un 
+            nuevo conjunto que contiene solo los elementos que pertenecen a A pero no a B.
+            Siguiendo con los conjuntos A y B, <br><br>
+
+            A - B = {1, 2} <br><br>
+
+            ya que 1 y 2 pertenecen a A pero no a B.<br><br>
+        </p>
+
+        <h2 id="simetrica">Diferencia Simétrica</h2>
+        <p class="text">
+            La diferencia simétrica entre dos conjuntos, 
+            denotada como A △ B, devuelve un nuevo conjunto que contiene solo los 
+            elementos que pertenecen a uno de los conjuntos pero no a ambos.
+            Continuando con los conjuntos A y B, <br><br>
+            
+            A △ B = {1, 2, 4, 5} <br><br>
+            
+            ya que 1 y 2 pertenecen solo a A, y 4 y 5 pertenecen solo a B.<br><br>
+        </p>
+
+
+        <h1>Ejemplos de Operaciones Básicas</h1>
+        <!--Ejemplos-->
+        <h2 id="ejemplo1">Ejemplo 1: Unión</h2>
+        
+        <div class="imagen2"><img class="img2" src="imagen2.png"></div>
+
+        <p class="text">
+            Si tenemos los conjuntos A = {1, 2, 3, 4, 5} y B = {3, 4, 5, 6, 7, 8}, 
+            la unión de ellos es el conjunto:<br><br>
+                A∪B = {1, 2, 3, 4, 5, 6, 7, 8}
+
+        </p>
+
+        <h2 id="ejemplo2">Ejemplo 2: Intersección</h2>
+        <p class="text">
+            Si los conjuntos A y B se definen como:<br><br>
+
+            A = {1, 12, 14, 11, 13, 7, 9, 17, 19}<br><br>
+
+            B = {12, 15, 14, 2, 1, 6, 9, 0}<br><br>
+
+            La intersección de los conjuntos A y B será la siguiente:<br><br>
+
+            La intersección de dos conjuntos se define como el conjunto 
+            que contiene elementos en el conjunto A que también están presentes 
+            en el conjunto B; en otras palabras, los elementos comunes.<br><br>
+
+            Como podemos ver, 12, 14, 1, 9 son los elementos presentes tanto 
+            en el conjunto A como en el conjunto B. Entonces, tenemos la 
+            intersección de conjuntos igual a:<br><br>
+
+            A ∩ B = {12, 14, 1, 9}<br><br>
+        </p>
+
+        <h2 id="ejemplo3">Ejemplo 3: Diferencia</h2>
+        
+        <div class="ejemplo3"><img class="ej3" src="ej3.png"></div>
+
+        <p class="text">
+            Si A = { a, b, c, d, e } y B = { a, e, i, o }, 
+            entonces la diferencia de dichos conjuntos estará formada 
+            por todos los elementos que estén solamente en A, esto es:<br><br>
+
+            A –  B = { b, c, d }<br><br>
+        </p>
+        
+
+        <h2 id="ejemplo4">Ejemplo 4: Unión</h2>
+        <p class="text">
+            Dado un conjunto A = {1, 2, 3} y un conjunto B = {3, 4, 5}, la unión de A y B es:<br><br>
+            
+            A ∪ B = {1, 2, 3, 4, 5}<br><br>
+        </p>
+
+        <h2 id="ejemplo5">Ejemplo 5: Diferencia Simétrica</h2>
+        <p class="text">
+            Dado un conjunto B de instrumentos musicales en general: 
+            B = {Saxofón, Violín, Pandereta, Batería, Cuatro, Tambor, Maraca} y un conjunto C,
+            constituido por instrumentos musicales de cuerda: 
+            C = {Violín, Guitarra, Cuatro, Piano, Viola, Bandolina} 
+            realizar una operación de Diferencia Simétrica:<br><br>
+
+            B = {Saxofón, Violín, Pandereta, Batería, Cuatro, Tambor, Maraca}<br>
+            C = {Violín, Guitarra, Cuatro, Piano, Viola, Bandolina}<br><br>
+            
+            B ∆ C = {Saxofón, Violín, Pandereta, Batería, Cuatro, Tambor, Maraca} ∆ {Violín, Guitarra, Cuatro, Piano, Viola, Bandolina}<br><br>
+            
+            B ∆ C = {Saxofón, Pandereta, Batería, Tambor, Maraca, Guitarra, Piano, Viola, Banolina}<br><br>
+        </p>
+
+
+        </div>
+
+        <a href="#inicio" class="boton-arriba">
+            <img class="uprrow" src="home.png" alt="Volver Arriba">
+        </a>
+    </body>
+</html>

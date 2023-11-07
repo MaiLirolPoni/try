@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Verdad y Diagramas de Venn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="signo-de-mas.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    
+        <nav class="header" id="inicio">
+            <ul>
+            <li><a href="index.html">Diagramas de Venn</a></li>
+            <li><a href="index2.html">Tablas de Verdad</a></li>
+         </ul>
+        </nav>
+
+    <br><br><br>
+
+
+    <div class="contenidos"> <!-- "tabla" de contenidos-->
+        <p class="title">Tablas de Verdad</p>  <!--título-->
+
+
+        <dd><li class="subtitulos" type="circle">Defición</li></dd> <!-- el dd es para sangria por así decirlo-->
+         <ul>
+            <dd><li><a class="indice" href="#concepto">Concepto</a></li></dd>
+            <dd><li><a class="indice" href="#aplicaciones">Aplicaciones</a></li></dd>
+            <dd><li><a class="indice" href="#proposiciones">Proposiciones</a></li></dd>
+            
+         </ul>
+
+        <dd><li class="subtitulos" type="circle">Tipos de Tablas</li></dd> <!-- el dd es para sangria por así decirlo-->
+         <ul>
+            
+            <dd><li><a class="indice" href="#negacion">Negación</a></li></dd>
+            <dd><li><a class="indice" href="#conjuncion">Conjunción</a></li></dd>
+            <dd><li><a class="indice" href="#disyuncion">Disyunción</a></li></dd>
+            <dd><li><a class="indice" href="#condicional">Condicional</a></li></dd>
+            <dd><li><a class="indice" href="#bicondicional">Bicondicional</a></li></dd>
+            
+         </ul>
+
+        <dd><li class="subtitulos" type="circle">Simbología</li></dd> <!-- el dd es para sangria por así decirlo-->
+        <ul>
+            <dd><li><a class="indice" href="#simbologia">Símbolos</a></li></dd>
+            </ul>
+
+        
+
+        
+       <dd><li class="subtitulos" type="circle">Ejemplos</li></dd> <!-- el dd es para sangria por así decirlo--> 
+         <ul>
+            <dd><li><a class="indice" href="#ejemplo1">Ejemplo 1</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo2">Ejemplo 2</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo3">Ejemplo 3</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo4">Ejemplo 4</a></li></dd>
+            <dd><li><a class="indice" href="#ejemplo5">Ejemplo 5</a></li></dd>
+            
+            
+        </ul>
+
+    </div>
+
+    
+    
+    <!--A PARTIR DE AQUÍ EMPIEZA EL CONTENIDO (TEXTO)-->
+
+    <div class="container"> <!--Va a ser el contenedor de toda la informacion de la página-->
+        <h1 class="titulo">TABLAS DE VERDAD</h1>
+        
+        <h1>Definición</h1>
+        <!--Definicionesss-->
+        <h2 id="concepto">Concepto</h2>
+            <p class="text">
+                Las tablas de verdad son herramientas en lógica que ayudan a entender cómo se comportan las afirmaciones 
+                o proposiciones en diferentes situaciones. 
+                Se muestran todas las posibles combinaciones de verdadero (V) y falso (F) para las partes involucradas, 
+                y se indica el resultado cuando se aplican operaciones como "y", "o" y "no". 
+                Esto ayuda a analizar y prever qué sucede en distintas situaciones lógicas.
+            </p>
+
+        <h2 id="aplicaciones">Aplicaciones</h2>
+            <p class="text">
+                Las aplicaciones más importantes de las tablas de verdad son:
+
+                <ol>
+                <li><b> Diseño de Circuitos Lógicos:</b> Fundamental en electrónica y computación para crear y entender el funcionamiento de dispositivos.<br></li>
+
+                <li><b> Programación y Desarrollo de Software:</b> Esencial para el diseño de algoritmos y operaciones lógicas en la creación de programas.<br></li>
+
+                <li><b> Análisis de Argumentos y Validez:</b> Permite evaluar la validez de razonamientos en diversos contextos, desde filosofía hasta ciencias de la computación.<br></li>
+
+                <li><b> Sistemas de Información y Bases de Datos:</b> Se utiliza en la gestión y consulta de bases de datos, especialmente en el lenguaje SQL.<br></li>
+
+                <li><b> Enseñanza y Educación:</b> Son una herramienta pedagógica valiosa para enseñar lógica y razonamiento en matemáticas y otras disciplinas.<br></li>
+                </ol>
+
+            </p>
+             
+        <h2 id="proposiciones">Proposiciones</h2>
+        <p class="text">
+            Una proposición es una afirmación o enunciado que puede ser verdadero 
+            (V) o falso (F), pero no ambas cosas al mismo tiempo. 
+            Es una expresión que se puede evaluar como verdadera o falsa, pero no ambas. <br><br>
+            Por ejemplo, "El cielo es azul" es una proposición, ya que puede ser verdadera o falsa, 
+            pero no ambas a la vez. Por otro lado, "Haz tu tarea" no es una proposición en este contexto, 
+            ya que no tiene un valor de verdad definido, depende del momento y de la situación. 
+            Las proposiciones son fundamentales en la lógica y en la construcción de tablas de verdad 
+            para analizar argumentos y razonamientos.
+            <br><br>
+            Se clasifican en 3 categorías:<br><br>
+            <b>Tautología:</b> Si y solo si su valor de verdad es siempre V, para toda interpretación posible. 
+            Esto significa que el resultado de la tabla arroja solo V en su columna final.<br><br>
+            <b>Contradicción:</b> Si la tabla de verdad arroja solamente F.<br><br>
+            <b>Contingencia:</b> Si y solo si su valor de verdad es falso para al menos una interpretación y V para al menos otra.
+         </p>
+
+        <h1>Simbología</h1>
+        <!--Simbologia-->
+        <h2 id="simbologia">Simbología</h2>
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>Q</th>
+                <th>P ∨ Q</th>
+                <th>¬P ∨ Q</th>
+              </tr>
+          
+              <tr class="si">
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+          
+              <tr class="no">
+                <td>V</td>
+                <td>F</td>
+                <td>V</td>
+                <td>F</td>
+              </tr>
+          
+              <tr class="si">
+                <td>F</td>
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+          
+              <tr class="no">
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>V</td>
+              </tr>
+          
+            </table>
+          </dd>
+          
+            
+        <h1>Tipos de Tablas</h1>
+        <!--Tipos de tablass-->
+
+        <h2 id="negacion">Negación</h2>
+        <p class="text">
+            La tabla más simple, muestra el valor opuesto de la proposición. 
+            Si una afirmación es verdadera, su negación será falsa, y viceversa. 
+            Se denota mediante el símbolo “-” y se lee como “no es cierto que”, “es falso que”.<br><br>
+        </p>
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>~P</th>
+              </tr>
+  
+              <tr class="si">
+                <td>V</td>
+                <td>F</td>
+              </tr>
+  
+              <tr class="no">
+                <td>F</td>
+                <td>V </td>
+              </tr>
+  
+            </table>
+          </dd>
+  
+
+        <h2 id="conjuncion">Conjunción</h2>
+        <p class="text">
+            Este operador implica la combinación de dos valores. 
+            Es verdadero cuando ambas partes son verdaderas y falso cuando las partes son distintas.
+        </p>
+
+        
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>Q</th>
+                <th>P ⋀ Q</th>
+              </tr>
+  
+              <tr class="si">
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+  
+              <tr class="no">
+                <td>V</td>
+                <td>F </td>
+                <td>F</td>
+              </tr>
+
+              <tr class="si">
+                <td>F</td>
+                <td>V</td>
+                <td>F</td>
+              </tr>
+              
+              <tr class="no">
+                <td>F</td>
+                <td>F </td>
+                <td>F</td>
+              </tr>
+
+            </table>
+          </dd>
+
+        <h2 id="disyuncion">Disyunción</h2>
+        <p class="text">
+            En esta variante, algo es verdadero si al 
+            menos una proposición lo es; de lo contrario, es falso.
+        </p>        
+
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>Q</th>
+                <th>P ⋁ Q</th>
+              </tr>
+  
+              <tr class="si">
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+  
+              <tr class="no">
+                <td>V</td>
+                <td>F </td>
+                <td>V</td>
+              </tr>
+
+              <tr class="si">
+                <td>F</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+              
+              <tr class="no">
+                <td>F</td>
+                <td>F </td>
+                <td>F</td>
+              </tr>
+
+            </table>
+          </dd>
+
+        <h2 id="condicional">Condicional</h2>
+        <p class="text">
+            La condicional, también conocida como implicación, 
+            establece una relación de causa y efecto entre dos proposiciones. 
+            Si la premisa A es verdadera, entonces la conclusión B también lo es. 
+            Solo cuando A es verdadera y B es falsa, la declaración completa es falsa.
+        </p>
+
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>Q</th>
+                <th>P → Q</th>
+              </tr>
+  
+              <tr class="si">
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+  
+              <tr class="no">
+                <td>V</td>
+                <td>F </td>
+                <td>F</td>
+              </tr>
+
+              <tr class="si">
+                <td>F</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+              
+              <tr class="no">
+                <td>F</td>
+                <td>F </td>
+                <td>V</td>
+              </tr>
+
+            </table>
+          </dd>
+
+        <h2 id="bicondicional">Bicondicional</h2>
+        <p class="text">
+            También llamado “si y solo si”, este operador lógico 
+            señala que dos proposiciones son verdaderas o falsas en conjunto. 
+            Si ambas proposiciones son iguales, 
+            el resultado es verdadero; de lo contrario, es falso.
+        </p>
+
+        <dd>
+            <table>
+              <tr class="no">
+                <th>P</th>
+                <th>Q</th>
+                <th>P ↔ Q</th>
+              </tr>
+  
+              <tr class="si">
+                <td>V</td>
+                <td>V</td>
+                <td>V</td>
+              </tr>
+  
+              <tr class="no">
+                <td>V</td>
+                <td>F </td>
+                <td>F</td>
+              </tr>
+
+              <tr class="si">
+                <td>F</td>
+                <td>V</td>
+                <td>F</td>
+              </tr>
+              
+              <tr class="no">
+                <td>F</td>
+                <td>F </td>
+                <td>V</td>
+              </tr>
+
+            </table>
+          </dd>
+
+
+        <h1>Ejemplos</h1>
+        <!--Ejemplos-->
+        <h2 id="ejemplo1">Ejemplo 1: Negación y Condicional</h2>
+        <p class="text">
+
+            Esta tabla de verdad representa la proposición "Si P no es verdadero, entonces Q es verdadero". 
+            Mostramos todas las posibles combinaciones de valores 
+            de verdad para P y Q y evaluamos la afirmación condicional. 
+            Si la afirmación es verdadera, se marca como "V"; si es falsa, se marca como "F".<br><br>
+            <dd>
+                <table>
+                    <tr class="no">
+                        <th>P</th>
+                        <th>Q</th>
+                        <th>~P</th>
+                        <th>~P → Q</th>
+                    </tr>
+                    <tr class="si">
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                    <tr class="si">
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                    <tr class="no">
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr class="si">
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+            </dd>
+            
+        </p>
+
+        <h2 id="ejemplo2">Ejemplo 2: Conjunción y Negación</h2>
+        <p class="text">
+
+            Esta tabla de verdad muestra las relaciones entre dos proposiciones, P y Q. 
+            La tercera columna indica si ambas proposiciones son verdaderas, 
+            mientras que la cuarta columna representa la negación de esta afirmación. 
+            Cuando ambas son verdaderas, la conjunción es falsa y su negación es verdadera. 
+            Si una de ellas o ambas son falsas, 
+            la conjunción también es falsa y su negación es falsa, excepto cuando ambas son falsas, 
+            donde la conjunción es falsa pero su negación es verdadera.<br><br>
+            <dd>
+                <table>
+                    <tr class="no">
+                        <th>P</th>
+                        <th>Q</th>
+                        <th>(P ⋀ Q)</th>
+                        <th>¬(P ⋀ Q)</th>
+                    </tr>
+            
+                    <tr class="si">
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>V</td>
+                        <td>F </td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+            
+                    <tr class="si">
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                </table>
+            </dd>
+            
+            
+        </p>
+
+        <h2 id="ejemplo3">Ejemplo 3: Disyunción</h2>
+        <p class="text">
+
+            Esta tabla de verdad analiza las relaciones entre las proposiciones P y Q, 
+            así como las expresiones lógicas resultantes de su combinación. 
+            La columna P ∨ Q representa la operación de disyunción, lo que significa 
+            que es verdadera si al menos una de las proposiciones P o Q es verdadera. La columna 
+            ¬P ∨ Q es una disyunción que implica una negación, 
+            lo que significa que es verdadera si la negación de P o Q es verdadera. 
+            Observando las combinaciones de verdad para P y Q, 
+            podemos determinar los valores de verdad resultantes para estas expresiones. 
+            Esto nos permite entender cómo se comportan las proposiciones en diferentes situaciones lógicas.
+            <dd>
+                <table>
+                  <tr class="no">
+                    <th>P</th>
+                    <th>Q</th>
+                    <th>P ∨ Q</th>
+                    <th>¬P ∨ Q</th>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>V</td>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>F</td>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>F</td>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>V</td>
+                  </tr>
+              
+                </table>
+              </dd>
+              
+        </p>
+
+        <h2 id="ejemplo4">Ejemplo 4: Biondicional</h2>
+        <p class="text">
+            La tabla representa la relación entre tres proposiciones (P, Q y R) bajo la operación lógica de bicondicional (↔). Muestra todas las posibles combinaciones de valores de verdad para P, Q y R y el resultado de la 
+            operación para cada una de esas combinaciones. 
+            Si el resultado es "V", significa que la 
+            proposición es verdadera; si es "F", significa que es falsa.<br><br>
+
+            <dd>
+                <table>
+                  <tr class="no">
+                    <th>P</th>
+                    <th>Q</th>
+                    <th>R</th>
+                    <th>P ↔ Q ↔ R</th>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>V</td>
+                    <td>V</td>
+                    <td>F</td>
+                    <td>F</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>V</td>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>V</td>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>V</td>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>F</td>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                    <td>V</td>
+                  </tr>
+              
+                  <tr class="no">
+                    <td>F</td>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                  </tr>
+              
+                  <tr class="si">
+                    <td>F</td>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>V</td>
+                  </tr>
+              
+                </table>
+              </dd>
+              
+        </p>
+        
+        <h2 id="ejemplo5">Ejemplo 5: Condicional</h2>
+        <p class="text">
+            Esta tabla de verdad representa la relación lógica entre las proposiciones 
+            P, Q y R, y la condición (P ⋀ Q) → (Q ⋀ R). La columna (P ⋀ Q) 
+            evalúa si tanto P como Q son verdaderos, mientras que (Q ⋀ R) 
+            verifica si Q y R son verdaderos simultáneamente. La condición final (P ⋀ Q) → (Q ⋀ R)  
+            expresa "si P y Q son verdaderos, entonces Q y R deben ser verdaderos". 
+            Observando las combinaciones de verdad
+             para P, Q y R, se determina si esta condición es verdadera o falsa para cada caso. 
+            Esto permite entender cómo interactúan las proposiciones en función de sus valores de verdad.
+            <dd>
+                <table>
+                    <tr class="no">
+                        <th>P</th>
+                        <th>Q</th>
+                        <th>R</th>
+                        <th>(P⋀Q)</th>
+                        <th>(Q⋀R)</th>
+                        <th>(P⋀Q) → (Q⋀R)</th>
+                    </tr>
+            
+                    <tr class="si">
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="si">
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="no">
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+            
+                    <tr class="si">
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                </table>
+            </dd>
+            
+        </p>
+
+        </div>
+
+        <a href="#inicio" class="boton-arriba">
+            <img class="uprrow" src="home.png" alt="Volver Arriba">
+          </a>
+
+    </body>
+</html>
